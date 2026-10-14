@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-const bcrypt = require("bcryptjs");
+import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { db } from "../config/db.js";
 import { RowDataPacket, ResultSetHeader } from "mysql2";
